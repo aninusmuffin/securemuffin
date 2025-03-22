@@ -1,0 +1,38 @@
+name: securebluefin-dx-nvidia
+description: Secureblue with some dinosaurs
+
+base-image: ghcr.io/secureblue/silverblue-nvidia-hardened
+image-version: latest
+modules:
+
+  - type: script
+    scripts:
+      - install-starship.sh
+
+  - type: rpm-ostree
+    repos:
+      - https://packages.microsoft.com/yumrepos/vscode
+      - https://copr.fedorainfracloud.org/coprs/ublue-os/packages/repo/fedora-%OS_VERSION%/ublue-os-packages-fedora-%OS_VERSION%.repo
+
+    install:
+      - code
+      - ublue-fastfetch
+      - bluefin
+
+modules:
+  - type: files
+    files:
+      - source: system/etc
+        destination: /etc
+
+
+  - type: default-flatpaks
+    notify: true
+    system:
+
+      install:
+
+    user: {} 
+
+  - type: signing 
+
