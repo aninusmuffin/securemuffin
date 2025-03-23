@@ -16,7 +16,9 @@ modules:
 
     install:
       - code
+      - fastfetch
       - ublue-fastfetch
+      - bluefin-wallpapers
 
 
   - type: signing 
