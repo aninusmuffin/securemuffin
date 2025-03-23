@@ -1,7 +1,7 @@
-name: securebluefin-dx-nvidia
+name: securebluefin-dx
 description: Secureblue with some dinosaurs and some dx
 
-base-image: ghcr.io/secureblue/silverblue-nvidia-hardened
+base-image: ghcr.io/secureblue/silverblue-hardened
 image-version: latest
 modules:
 

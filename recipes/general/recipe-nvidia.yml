@@ -1,12 +1,11 @@
-name: securebluefin-dx-nvidia
-description: Secureblue with some dinosaurs and some dx
+name: securebluefin-nvidia
+description: Secureblue with some dinosaurs
 
 base-image: ghcr.io/secureblue/silverblue-nvidia-hardened
 image-version: latest
 modules:
 
   - from-file: common/common-modules.yml
-  - from-file: common/dev-modules.yml
 
   - type: signing 
 

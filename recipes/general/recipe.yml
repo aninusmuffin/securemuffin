@@ -1,0 +1,11 @@
+name: securebluefin
+description: Secureblue with some dinosaurs
+
+base-image: ghcr.io/secureblue/silverblue-hardened
+image-version: latest
+modules:
+
+  - from-file: common/common-modules.yml
+
+  - type: signing 
+
