@@ -18,21 +18,11 @@ modules:
       - code
       - ublue-fastfetch
       - bluefin
-
-modules:
+      
   - type: files
     files:
       - source: system/etc
         destination: /etc
-
-
-  - type: default-flatpaks
-    notify: true
-    system:
-
-      install:
-
-    user: {} 
 
   - type: signing 
 
