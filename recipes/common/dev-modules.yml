@@ -5,5 +5,5 @@ modules:
       - source: system
         destination: /
 
-  - from-file: common/dx-packages.yml
+  - from-file: common/dev-packages.yml
   

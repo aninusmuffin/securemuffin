@@ -6,7 +6,7 @@ image-version: latest
 modules:
 
   - from-file: common/common-modules.yml
-  - form-file: common/dx-modules.yml
+  - from-file: common/dev-modules.yml
 
   - type: signing 
 
