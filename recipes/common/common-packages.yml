@@ -7,6 +7,3 @@ install:
   - code
   - ublue-fastfetch
   - bluefin-backgrounds
-
-remove:
-  - gnome-extensions-app
