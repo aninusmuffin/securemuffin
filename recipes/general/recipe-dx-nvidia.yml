@@ -5,26 +5,8 @@ base-image: ghcr.io/secureblue/silverblue-nvidia-hardened
 image-version: latest
 modules:
 
-  - type: script
-    scripts:
-      - install-starship.sh
-
-  - type: rpm-ostree
-    repos:
-      - https://raw.githubusercontent.com/ublue-os/bluefin/main/system_files/dx/etc/yum.repos.d/vscode.repo
-      - https://copr.fedorainfracloud.org/coprs/ublue-os/packages/repo/fedora-%OS_VERSION%/ublue-os-packages-fedora-%OS_VERSION%.repo
-
-    install:
-      - code
-      - fastfetch
-      - ublue-fastfetch
-      - bluefin-backgrounds
-
-  - type: files
-    files:
-      - source: system
-        destination: /
-
+  - from-file: common/common-modules.yml
+  - form-file: dx/dx-modules.yml
 
   - type: signing 
 

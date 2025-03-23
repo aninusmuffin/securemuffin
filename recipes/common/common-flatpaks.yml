@@ -1,0 +1,5 @@
+type: default-flatpaks
+system:
+
+  install:
+    - com.mattjakeman.ExtensionManager

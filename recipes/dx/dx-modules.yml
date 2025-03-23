@@ -1,0 +1,9 @@
+modules:
+
+  - type: files
+    files:
+      - source: system
+        destination: /
+
+  - from-file: dx/dx-packages.yml
+  
