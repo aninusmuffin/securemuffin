@@ -16,7 +16,17 @@ modules:
       - Logo Menu
       - Caffeine
       - AppIndicator and KStatusNotifierItem Support
+      - GSConnect
 
   - from-file: common/common-packages.yml
   
   - from-file: common/common-flatpaks.yml
+
+  - type: gschema-overrides
+    include:
+      - zz1-securebluefin.gschema.override
+
+  - type: script
+    snippets:
+      - "dconf write /org/gnome/shell/extensions/Logo-menu/symbolic-icon true"
+      - "dconf write /org/gnome/shell/extensions/Logo-menu/menu-button-icon-image 31"
