@@ -1,9 +1,11 @@
-# Disable GNOME user extensions installation & usage
-# Only GNOME system extensions are trusted if installed
-
 [org.gnome.shell]
 allow-extension-installation=false
 enabled-extensions = ['appindicatorsupport@rgcjonas.gmail.com', 'gsconnect@andyholmes.github.io', 'logomenu@aryan_k']
 
 [org.gnome.desktop.interface]
 monospace-font-name="Monospace 12"
+
+[org.gnome.shell.extensions.Logo-menu]
+symbolic-icon="true"
+menu-button-icon-image="0"
+menu-button-extensions-app="com.mattjakeman.ExtensionManager"
