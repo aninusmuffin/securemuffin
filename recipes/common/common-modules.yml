@@ -1,8 +1,6 @@
 modules:
 
   - type: script
-    snippets:
-     - "ujust toggle-gnome-extensions"
     scripts:
       - install-starship.sh
 
@@ -10,13 +8,6 @@ modules:
     files:
       - source: system
         destination: /
-
-  - type: gnome-extensions
-    install: 
-      - Logo Menu
-      - Caffeine
-      - AppIndicator and KStatusNotifierItem Support
-      - GSConnect
 
   - from-file: common/common-packages.yml
   

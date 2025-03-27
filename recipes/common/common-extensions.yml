@@ -1,0 +1,7 @@
+type: gnome-extensions
+  install: 
+    - Logo Menu
+    - Caffeine
+    - AppIndicator and KStatusNotifierItem Support
+    - GSConnect
+

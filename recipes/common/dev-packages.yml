@@ -4,3 +4,4 @@ repos:
 
 install:
   - code
+  - virt-manager
