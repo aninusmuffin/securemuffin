@@ -15,3 +15,6 @@ install:
   - nautilus-gsconnect
   - nautilus-python
   - steam-devices
+
+remove:
+  - gnome-system-monitor
