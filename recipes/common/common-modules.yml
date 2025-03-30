@@ -14,6 +14,9 @@ modules:
   
   - from-file: common/common-flatpaks.yml
 
+  - from-file: common/common-extensions.yml
+
+
   - type: gschema-overrides
     include:
       - zz1-securebluefin.gschema.override
