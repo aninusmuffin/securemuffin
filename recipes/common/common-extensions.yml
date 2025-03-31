@@ -1,4 +1,4 @@
 type: gnome-extensions
-  install: 
-    - Battery Health Charging
+install: 
+  - Battery Health Charging
 
