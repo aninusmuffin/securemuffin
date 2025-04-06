@@ -3,7 +3,7 @@ modules:
   - type: script
     scripts:
       - install-starship.sh
-      - installselinuxpolicies.sh
+#      - installselinuxpolicies.sh
 
   - type: files
     files:

@@ -2,9 +2,11 @@
 module code 1.0;
 
 require {
-    type code_t;
     class user_namespace create;
 }
+
+type code_t;
+
 
 # Allow VSCode to create user namespaces
 allow code_t self:user_namespace create;
