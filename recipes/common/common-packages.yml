@@ -10,6 +10,7 @@ install:
   - bluefin-backgrounds
   - gnome-shell-extension-caffeine
   - gnome-shell-extension-appindicator
+  - gnome-shell-extension-blur-my-shell
   - gnome-shell-extension-logo-menu
   - gnome-shell-extension-gsconnect
   - nautilus-gsconnect
