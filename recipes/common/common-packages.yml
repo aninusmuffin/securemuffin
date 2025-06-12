@@ -19,3 +19,4 @@ install:
 
 remove:
   - gnome-system-monitor
+  - gnome-extensions-app
