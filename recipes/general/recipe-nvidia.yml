@@ -1,7 +1,7 @@
 name: securebluefin-nvidia
 description: Secureblue with some dinosaurs
 
-base-image: ghcr.io/secureblue/silverblue-nvidia-hardened
+base-image: ghcr.io/secureblue/silverblue-nvidia-open-hardened
 image-version: latest
 modules:
 
