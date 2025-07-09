@@ -1,4 +1,4 @@
-# 󱍢󰌾 Welcome to SecureBluefin!
+# 󱍢󰌾 Welcome to SecureMuffin!
 󱋩 Your image is: `%IMAGE_REF_NAME%`
 
 |  Command | Description |

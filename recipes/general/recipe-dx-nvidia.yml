@@ -1,4 +1,4 @@
-name: securebluefin-dx-nvidia
+name: securemuffin-dx-nvidia
 description: Secureblue with some dinosaurs and some dx
 
 base-image: ghcr.io/secureblue/silverblue-nvidia-open-hardened

@@ -1,4 +1,4 @@
-name: securebluefin
+name: securemuffin
 description: Secureblue with some dinosaurs
 
 base-image: ghcr.io/secureblue/silverblue-hardened
