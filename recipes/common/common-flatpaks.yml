@@ -1,5 +1,8 @@
 type: default-flatpaks
-user:
-  repo-name: flathub-verified
-  install:
-    - com.mattjakeman.ExtensionManager
+configurations:
+  - notify: false
+    scope: user
+    repo:
+      name: flathub-verified
+    install:
+      - com.mattjakeman.ExtensionManager
