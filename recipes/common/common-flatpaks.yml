@@ -6,3 +6,17 @@ configurations:
       name: flathub-verified
     install:
       - com.mattjakeman.ExtensionManager
+      - com.github.tchx84.Flatseal
+      - io.github.flattool.Warehouse
+      - io.missioncenter.MissionCenter
+      - org.gnome.Loupe
+      - org.gnome.Calculator
+      - org.gnome.Calendar
+      - org.gnome.Contacts
+      - org.gnome.clocks
+      - org.gnome.Characters
+      - org.gnome.baobab
+      - org.gnome.TextEditor
+      - org.gnome.Showtime
+      - org.gnome.Papers
+      - org.gnome.World.PikaBackup
