@@ -16,6 +16,8 @@ modules:
 
   - from-file: common/common-extensions.yml
 
+  - type: justfiles
+    validate: true
 
   - type: gschema-overrides
     include:
