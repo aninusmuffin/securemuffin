@@ -6,3 +6,6 @@ enabled-extensions = ['appindicatorsupport@rgcjonas.gmail.com', 'gsconnect@andyh
 symbolic-icon="true"
 menu-button-icon-image="1"
 menu-button-extensions-app="com.mattjakeman.ExtensionManager"
+
+[org.gnome.desktop.interface]
+monospace-font-name="AdwaitaMono Nerd Font 12"

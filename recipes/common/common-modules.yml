@@ -19,6 +19,11 @@ modules:
   - type: justfiles
     validate: true
 
+  - type: fonts
+    fonts:
+      nerd-fonts:
+       - AdwaitaMono
+
   - type: gschema-overrides
     include:
       - zz1-securebluefin.gschema.override
