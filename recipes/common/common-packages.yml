@@ -7,7 +7,6 @@ repos:
   - https://copr.fedorainfracloud.org/coprs/trixieua/morewaita-icon-theme/repo/fedora-%OS_VERSION%/trixieua-morewaita-icon-theme-fedora-%OS_VERSION%.repo
 
 install:
-  - code
   - ublue-fastfetch
   - bluefin-backgrounds
   - gnome-shell-extension-caffeine
