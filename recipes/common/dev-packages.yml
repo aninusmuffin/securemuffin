@@ -4,6 +4,8 @@ repos:
 
 install:
 #  - code
+  - docker
+  - docker-compose
   - libvirt 
   - libvirt-nss 
   - qemu 
