@@ -13,18 +13,20 @@ repos:
 #  - https://copr.fedorainfracloud.org/coprs/trixieua/morewaita-icon-theme/repo/fedora-%OS_VERSION%/trixieua-morewaita-icon-theme-fedora-%OS_VERSION%.repo
 
 install:
-  - ublue-fastfetch
-  - bluefin-backgrounds
-  - gnome-shell-extension-caffeine
-  - gnome-shell-extension-appindicator
-  - gnome-shell-extension-blur-my-shell
-  - gnome-shell-extension-logo-menu
-  - gnome-shell-extension-gsconnect
-  - nautilus-gsconnect
-  - nautilus-python
-  - steam-devices
-  - python-envycontrol
-  - morewaita-icon-theme
+    packages:
+        - ublue-fastfetch
+        - bluefin-backgrounds
+        - gnome-shell-extension-caffeine
+        - gnome-shell-extension-appindicator
+        - gnome-shell-extension-blur-my-shell
+        - gnome-shell-extension-logo-menu
+        - gnome-shell-extension-gsconnect
+        - nautilus-gsconnect
+        - nautilus-python
+        - steam-devices
+        - python-envycontrol
+        - morewaita-icon-theme
 
 remove:
-  - gnome-system-monitor
+    packages:
+        - gnome-system-monitor
