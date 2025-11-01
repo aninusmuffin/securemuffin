@@ -1,10 +1,16 @@
-type: rpm-ostree
+type: dnf
 repos:
-  - https://raw.githubusercontent.com/ublue-os/bluefin/main/system_files/dx/etc/yum.repos.d/vscode.repo
-  - https://copr.fedorainfracloud.org/coprs/sunwire/envycontrol/repo/fedora-%OS_VERSION%/sunwire-envycontrol-fedora-%OS_VERSION%.repo
-  - https://copr.fedorainfracloud.org/coprs/ublue-os/packages/repo/fedora-%OS_VERSION%/ublue-os-packages-fedora-%OS_VERSION%.repo
-  - https://copr.fedorainfracloud.org/coprs/ublue-os/staging/repo/fedora-%OS_VERSION%/ublue-os-staging-fedora-%OS_VERSION%.repo
-  - https://copr.fedorainfracloud.org/coprs/trixieua/morewaita-icon-theme/repo/fedora-%OS_VERSION%/trixieua-morewaita-icon-theme-fedora-%OS_VERSION%.repo
+    copr:
+    - trixieua/morewaita-icon-theme
+    - ublue-os/staging
+    - ublue-os/packages
+    - sunwire/envycontrol
+
+#  - https://raw.githubusercontent.com/ublue-os/bluefin/main/system_files/dx/etc/yum.repos.d/vscode.repo
+#  - https://copr.fedorainfracloud.org/coprs/sunwire/envycontrol/repo/fedora-%OS_VERSION%/sunwire-envycontrol-fedora-%OS_VERSION%.repo
+#  - https://copr.fedorainfracloud.org/coprs/ublue-os/packages/repo/fedora-%OS_VERSION%/ublue-os-packages-fedora-%OS_VERSION%.repo
+#  - https://copr.fedorainfracloud.org/coprs/ublue-os/staging/repo/fedora-%OS_VERSION%/ublue-os-staging-fedora-%OS_VERSION%.repo
+#  - https://copr.fedorainfracloud.org/coprs/trixieua/morewaita-icon-theme/repo/fedora-%OS_VERSION%/trixieua-morewaita-icon-theme-fedora-%OS_VERSION%.repo
 
 install:
   - ublue-fastfetch
