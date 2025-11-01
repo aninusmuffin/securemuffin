@@ -1,10 +1,10 @@
 type: dnf
 repos:
     copr:
-    - trixieua/morewaita-icon-theme
+    - sunwire/envycontrol
     - ublue-os/staging
     - ublue-os/packages
-    - name: sunwire/envycontrol
+    - name: trixieua/morewaita-icon-theme
       chroot: fedora-42-x86_64
 
 
