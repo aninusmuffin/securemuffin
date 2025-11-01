@@ -26,7 +26,3 @@ install:
         - steam-devices
         - python-envycontrol
         - morewaita-icon-theme
-
-remove:
-    packages:
-        - gnome-system-monitor
