@@ -2,13 +2,13 @@ type: dnf
 repos:
     copr:
     - name:  ublue-os/staging
-      chroot: fedora-42-x86_64
+      chroot: fedora-43-x86_64
     - name: ublue-os/packages
-      chroot: fedora-42-x86_64
+      chroot: fedora-43-x86_64
     - name:  sunwire/envycontrol
-      chroot: fedora-42-x86_64
+      chroot: fedora-43-x86_64
     - name: trixieua/morewaita-icon-theme
-      chroot: fedora-42-x86_64
+      chroot: fedora-43-x86_64
 
 
 #  - https://raw.githubusercontent.com/ublue-os/bluefin/main/system_files/dx/etc/yum.repos.d/vscode.repo
