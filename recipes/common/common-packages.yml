@@ -5,8 +5,6 @@ repos:
       chroot: fedora-43-x86_64
     - name: ublue-os/packages
       chroot: fedora-43-x86_64
-    - name:  sunwire/envycontrol
-      chroot: fedora-43-x86_64
     - name: trixieua/morewaita-icon-theme
       chroot: fedora-43-x86_64
 
@@ -29,5 +27,4 @@ install:
         - nautilus-gsconnect
         - nautilus-python
         - steam-devices
-        - python-envycontrol
         - morewaita-icon-theme
