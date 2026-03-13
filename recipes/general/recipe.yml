@@ -1,7 +1,7 @@
 name: securemuffin-hardened
 description: Secureblue with some extras
 
-base-image: ghcr.io/secureblue/silverblue-hardened
+base-image: ghcr.io/secureblue/silverblue-main-hardened
 image-version: latest
 modules:
 
