@@ -2,11 +2,11 @@ type: dnf
 repos:
     copr:
     - name:  ublue-os/staging
-      chroot: fedora-43-%OS_VERSION%
+      chroot: fedora-43-x86_64
     - name: ublue-os/packages
-      chroot: fedora-43-%OS_VERSION%
+      chroot: fedora-43-x86_64
     - name: trixieua/morewaita-icon-theme
-      chroot: fedora-43-%OS_VERSION%
+      chroot: fedora-43-x86_64
 
 install:
     packages:
