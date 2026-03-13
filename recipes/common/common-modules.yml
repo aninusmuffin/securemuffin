@@ -3,7 +3,6 @@ modules:
   - type: script
     scripts:
       - install-starship.sh
-#      - installselinuxpolicies.sh
 
   - type: files
     files:
@@ -13,8 +12,6 @@ modules:
   - from-file: common/common-packages.yml
   
   - from-file: common/common-flatpaks.yml
-
-  - from-file: common/common-extensions.yml
 
   - type: justfiles
     validate: true
