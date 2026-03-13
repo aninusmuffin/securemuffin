@@ -18,12 +18,10 @@ repos:
 install:
     packages:
         - ublue-fastfetch
-        - bluefin-backgrounds
         - gnome-shell-extension-caffeine
         - gnome-shell-extension-appindicator
         - gnome-shell-extension-logo-menu
         - gnome-shell-extension-gsconnect
         - nautilus-gsconnect
         - nautilus-python
-        - steam-devices
         - morewaita-icon-theme
