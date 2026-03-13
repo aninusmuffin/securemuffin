@@ -19,7 +19,7 @@ To rebase an existing atomic Fedora installation to the latest build:
   rpm-ostree rebase ostree-unverified-registry:ghcr.io/aninusmuffin/securemuffin-hardened:latest
   ```
   ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/aninusmuffin/securemuffin-nvidea-hardened:latest
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/aninusmuffin/securemuffin-nvidia-hardened:latest
   ```
 - Reboot to complete the rebase:
   ```
@@ -27,7 +27,7 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
 - Then rebase to the signed image, like so:
   ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/aninusmuffin/securemuffin-nvidea-hardened:latest
+  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/aninusmuffin/securemuffin-nvidia-hardened:latest
   ```
 - Reboot again to complete the installation
   ```
