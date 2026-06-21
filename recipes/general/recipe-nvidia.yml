@@ -1,4 +1,4 @@
-name: securemuffin-nvidia-hardened
+name: muffin-silverblue-nvidia-open-hardened
 description: Secureblue with some extras
 
 base-image: ghcr.io/secureblue/silverblue-nvidia-open-hardened

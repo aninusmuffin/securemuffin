@@ -1,4 +1,4 @@
-name: securemuffin-hardened
+name: muffin-silverblue-main-hardened
 description: Secureblue with some extras
 
 base-image: ghcr.io/secureblue/silverblue-main-hardened
